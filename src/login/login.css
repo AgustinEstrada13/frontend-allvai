@@ -1,0 +1,177 @@
+.view-login{
+    height: 100%;
+    width: 100%;
+}
+
+.content-up{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-logo{
+    height: 120px;
+    width: 350px;
+    background-image: url('../../public/assets/login/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 30px;
+}
+
+.content-mid{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.img-login-google{
+    height: 15vh;
+    width: 90vw;
+    background-image: url('../../public/assets/login/boton-inicio-google.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form-login{
+    height: 35vh;
+    width: 100%;
+    border-radius: 45px;
+    background-image: linear-gradient(to bottom, #ffffff, rgb(114, 186, 226));
+    backdrop-filter: blur(10px);
+}
+
+.inputs{
+    height: 7vh;
+    width: 100%;
+    background-image: url('../../public/assets/login/content-input.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.input::placeholder {
+    color:white;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+
+.input-text{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.input{
+    border: transparent;
+    border-radius: 30%;
+    width: 85%;
+    height: 4vh;
+    color: #ffffff;;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.register-login{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.box-register-login{
+    height: 7vh;
+    width: 80%;
+    background-image: url('../../public/assets/login/content-input.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.img-typeUser{
+    height: 5vh;
+    width: 80vw;
+    background-image: url('../../public/assets/login/tipo-usuario.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+.chose-user{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-comerce{
+    height: 20vh;
+    width: 42vw;
+    background-image: url('../../public/assets/login/boton-comercio.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-citizen{
+    height: 20vh;
+    width: 42vw;
+    background-image: url('../../public/assets/login/boton-ciudadano.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content-down{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-help{
+    height: 20vh;
+    width: 42vw;
+    background-image: url('../../public/assets/login/boton-ayuda.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.backViewLogin{
+    height: 20vh;
+    width: 35vw;
+    background-image: url('../../public/assets/login/content-input.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
