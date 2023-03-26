@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <div className="header">
 
-      <div className="header-content content-left">
+      <div className="header-content content-left-home">
         <div id="img-left"></div>
       </div>
 
-      <div className="content-mid">
+      <div className="content-mid-home">
         <div id="img-mid"></div>
         <select name="frutas" className="select">
           <option value="manzana">Villa Allende</option>
@@ -18,7 +18,7 @@ const Header = () => {
         </select>
       </div>
 
-      <div className="header-content content-right">
+      <div className="header-content content-right-home">
         <div id="img-right"></div>
       </div>
       

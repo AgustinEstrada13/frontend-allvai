@@ -12,19 +12,19 @@
     width: 20vw;
 }
 
-.content-left{
+.content-left-home{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.content-right{
+.content-right-home{
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
 }
 
-.content-mid{
+.content-mid-home{
     height: 100%;
     width: 60vw;
     display: flex;
