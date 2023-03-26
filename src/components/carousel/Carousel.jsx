@@ -1,13 +1,15 @@
 import React from "react";
 import ContentCarousel from "./ContentCarousel";
-import { slides } from "./assets/exporters";
-import titleCarousel from "./assets/efollets-premium.png";
 
-const Carousel = () => {
+
+const Carousel = ({slides, titleCarousel, height, width, heightMid}) => {
   return (
     <ContentCarousel
       slides={slides}
       titleCarousel={titleCarousel}
+      height={height}
+      width={width}
+      heightMid={heightMid}
     ></ContentCarousel>
   );
 };

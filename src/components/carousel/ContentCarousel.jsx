@@ -3,7 +3,7 @@ import "./styles/carousel.css";
 import arrowLeft from "./assets/flecha-izquierda.png";
 import arrowRight from "./assets/flecha-derecha.png";
 import Efollet from "./Efollet";
-const ContentCarousel = ({ slides, titleCarousel }) => {
+const ContentCarousel = ({ slides, titleCarousel, height, width, heightMid }) => {
   const images = slides;
   const [firstIndex, setFirstIndex] = useState(0);
   const [sliceIndex, setSliceIndex] = useState(3);
@@ -35,7 +35,12 @@ const ContentCarousel = ({ slides, titleCarousel }) => {
           </div>
 
           <div className="component-mid">
-            <Efollet slides={slides.slice(firstIndex, sliceIndex)} />
+            <Efollet
+              slides={slides.slice(firstIndex, sliceIndex)}
+              height={height}
+              width={width}
+              heightMid={heightMid}
+            />
           </div>
 
           <div className="arrow">
@@ -48,7 +53,7 @@ const ContentCarousel = ({ slides, titleCarousel }) => {
           </div>
         </div>
       }
-      )
+
     </>
   );
 };
