@@ -1,0 +1,44 @@
+.navbar{
+    height: 18vw;
+    width: 100vw;
+    background-color: white;
+    border-radius: 25% 25% 0% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content-navbar{
+    height: 13vw;
+    width: 100vw;
+    background-color: white;
+    border-radius: 25% 25% 0% 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.box-navbar{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-navbar:not(:last-child){
+    border-right: 2px solid rgb(160, 160, 160);
+}
+
+.box-navbar img{
+    height: 35px;
+    width: 37px;
+}
+
+.content-box-navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

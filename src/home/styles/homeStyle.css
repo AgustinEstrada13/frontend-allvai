@@ -1,0 +1,23 @@
+.content-home{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../../public/assets//fondo.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sub-background{
+    height: 70vh;
+    width: 100%;
+    background-image: url('../../../public/assets/home/sub-fondo.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}

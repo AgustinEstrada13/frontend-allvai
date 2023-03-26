@@ -1,11 +1,14 @@
 import React, { useState, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./login.css";
+
 
 const Login = ({setEmail, setPassword, setLoginOrRegister}) => {
   const [validateClick, setValidateClick] = useState(false);
   const [validateClickPassword, setValidateClickPassword] = useState(false);
   const inputRef = useRef(null);
   const inputPasswordRef = useRef(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (validateClick && inputRef.current) {
@@ -25,6 +28,10 @@ const Login = ({setEmail, setPassword, setLoginOrRegister}) => {
   const handleInputPasswordClick = () => {
     setValidateClickPassword(true);
   };
+
+  const handlePushHome = ()=>{
+    navigate('/home')
+  }
 
   return (
     <>
@@ -60,7 +67,7 @@ const Login = ({setEmail, setPassword, setLoginOrRegister}) => {
           )}
         </div>
         <div className="register-login">
-          <div className="box-register-login input-text">Iniciar sesión</div>
+          <div className="box-register-login input-text" onClick={() => handlePushHome()}>Iniciar sesión</div>
           <div className="box-register-login input-text" onClick={() => setLoginOrRegister(false)}>Registrarse</div>
         </div>
       </div>

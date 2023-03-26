@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./login.css";
 import Login from "./Login";
 import Register from "./Register";
+import '../app.css';
+
 const ViewLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -11,6 +13,11 @@ const ViewLogin = () => {
   console.log(email, password, typeUser)
 //resetear validateClickssss cuandop se guarda
   return (
+    <div className="App">
+    <div className="container">
+
+        
+
     <div className="view-login">
       <div className="content-up">
         <div className="img-logo"></div>
@@ -20,7 +27,7 @@ const ViewLogin = () => {
         {
           loginOrRegister
           ? <Login setEmail={setEmail} setPassword={setPassword} setLoginOrRegister={setLoginOrRegister}/>
-          : <Register setLoginOrRegister={setLoginOrRegister} setTypeUser={setTypeUser}/>
+          : <Register setLoginOrRegister={setLoginOrRegister} setTypeUser={setTypeUser} setEmail={setEmail} setPassword={setPassword} />
         }
       </div>
 
@@ -28,6 +35,8 @@ const ViewLogin = () => {
         <div className="img-help"></div>
       </div>
     </div>
+    </div>
+</div>
   );
 };
 

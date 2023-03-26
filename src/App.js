@@ -1,14 +1,16 @@
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
-import Frame from './Frame';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ViewLogin from './login/ViewLogin';
+import ViewHome from './home/ViewHome';
+
 import './app.css';
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact path='/login' component={Frame} />
-        <Redirect to='/login' />
-      </Switch>
-    </BrowserRouter>
+    <Routes>
+        <Route path="/" element={<ViewLogin />} />
+        <Route path="home" element={<ViewHome />}/>
+    </Routes>
+  </BrowserRouter>
   );
 }
 

@@ -1,0 +1,82 @@
+.content-social{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-social{
+    height: 12vh;
+    width: 95vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: aliceblue;
+}
+
+.title{
+    height: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title{
+    height: 3vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../../public/assets/home/area-social.png');
+    z-index: 10;
+}
+
+.content-box-social{
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.box-left{
+    min-height: 10vh;
+    width: 45vw;
+    border-right: 2px solid rgb(160, 160, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-right{
+    height: 100%;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.img-box-left{
+    height: 90%;
+    width: 90%;
+    background-image: url('../../../public/assets/home/turismo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+.img-box-right{
+    height: 80%;
+    width: 80%;
+    background-image: url('../../../public/assets/home/medios.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 15px 15px;
+}
