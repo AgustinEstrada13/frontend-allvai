@@ -1,0 +1,70 @@
+.header{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.header-content{
+    height: 100%;
+    width: 20vw;
+}
+
+.content-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.content-mid{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#img-left{
+    background-image: url(../../../../public/assets/home/boton-scanqr.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 85px;
+}
+
+#img-mid{
+    background-image: url(../../../../public/assets/home/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 141px;
+}
+
+#img-right{
+    background-image: url(../../../../public/assets/home/boton-mas-comercios.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 85px;
+}
+
+.select{
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+}
