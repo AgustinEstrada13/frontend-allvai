@@ -26,7 +26,7 @@ const Efollet = ({ slides, height, heightMid, width, hasText }) => {
           }}
           className="img-efollets"
         >
-          {hasText && <div className="text-img-efollet">{slides[0].text}</div>}
+          {hasText && <div className="text-img-efollet">{slides[1].text}</div>}
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const Efollet = ({ slides, height, heightMid, width, hasText }) => {
           }}
           className="img-efollets"
         >
-          {hasText && <div className="text-img-efollet">{slides[0].text}</div>}
+          {hasText && <div className="text-img-efollet">{slides[2].text}</div>}
         </div>
       </div>
     </>
