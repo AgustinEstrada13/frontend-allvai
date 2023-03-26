@@ -27,6 +27,7 @@
 }
 
 .content-title{
+    position: absolute;
     height: 3vh;
     width: 50%;
     background-position: center;
