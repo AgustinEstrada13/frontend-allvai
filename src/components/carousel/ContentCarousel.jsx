@@ -3,7 +3,7 @@ import "./styles/carousel.css";
 import arrowLeft from "./assets/flecha-izquierda.png";
 import arrowRight from "./assets/flecha-derecha.png";
 import Efollet from "./Efollet";
-const ContentCarousel = ({ slides, titleCarousel, height, width, heightMid }) => {
+const ContentCarousel = ({ slides, titleCarousel, height, width, heightMid, hasText }) => {
   const images = slides;
   const [firstIndex, setFirstIndex] = useState(0);
   const [sliceIndex, setSliceIndex] = useState(3);
@@ -40,6 +40,7 @@ const ContentCarousel = ({ slides, titleCarousel, height, width, heightMid }) =>
               height={height}
               width={width}
               heightMid={heightMid}
+              hasText={hasText}
             />
           </div>
 

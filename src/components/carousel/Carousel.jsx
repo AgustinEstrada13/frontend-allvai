@@ -2,7 +2,7 @@ import React from "react";
 import ContentCarousel from "./ContentCarousel";
 
 
-const Carousel = ({slides, titleCarousel, height, width, heightMid}) => {
+const Carousel = ({slides, titleCarousel, height, width, heightMid, hasText}) => {
   return (
     <ContentCarousel
       slides={slides}
@@ -10,6 +10,7 @@ const Carousel = ({slides, titleCarousel, height, width, heightMid}) => {
       height={height}
       width={width}
       heightMid={heightMid}
+      hasText={hasText}
     ></ContentCarousel>
   );
 };

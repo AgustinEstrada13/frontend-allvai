@@ -11,7 +11,7 @@ const ViewHome = () => {
   return (
     <div className="content-home">
       <div className="sub-background">
-        <Carrousel slides={slides2} titleCarousel={titleCarousel2} height={'100px'} width={'100px'} heightMid={'115px'}/>
+        <Carrousel slides={slides2} titleCarousel={titleCarousel2} height={'100px'} width={'100px'} heightMid={'115px'} hasText={true}/>
         <Carrousel slides={slides} titleCarousel={titleCarousel} heightMid={'190px'}/>
         <SocialPromotion />
         <NavBar />
